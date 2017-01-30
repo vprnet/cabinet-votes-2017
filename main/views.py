@@ -7,7 +7,7 @@ votes = get_votes()
 
 @app.route('/')
 def index():
-    page_title = 'VPR App Template'
+    page_title = 'Cabinet Votes 2017'
     page_url = FREEZER_BASE_URL.rstrip('/') + request.path
 
     return render_template('content.html',

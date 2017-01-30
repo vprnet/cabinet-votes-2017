@@ -6,7 +6,7 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 8, ../dev/sass/_bootstrap.scss */
 html {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -392,7 +392,7 @@ html {
 
 /* line 273, ../dev/sass/_bootstrap.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -631,7 +631,8 @@ h6,
 
 /* line 462, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 0 0 10px;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 0 10px;
 }
 
 /* line 465, ../dev/sass/_bootstrap.scss */
