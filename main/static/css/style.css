@@ -1,7 +1,9 @@
 <style type="text/css">
+
     body {
         color: #333;
         margin: 0;
+        font-family: 'Lato', sans-serif;
     }
 
     table {
@@ -33,3 +35,5 @@
         padding-left: 0;
         font-weight: bold;
     }
+
+</style>
