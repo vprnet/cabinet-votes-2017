@@ -9,5 +9,5 @@ boto==2.18.0
 gdata==2.0.18
 itsdangerous==0.24
 python-google-spreadsheet==2.0.0
-requests==2.2.1
+requests==2.9.1
 wsgiref==0.1.2

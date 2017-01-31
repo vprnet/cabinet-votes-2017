@@ -1,7 +1,28 @@
-{% for vote in votes %}
-  <p>{{vote.Nominee}}</p>
-{% endfor %}
+<div class="col-lg-12">
+  <table>
+      <thead>
+        <tr>
+          <th>Position</th>
+          <th>Nominee</th>
+          <th>Leahy</th>
+          <th>Sanders</th>
+          <th>Vote Date</th>
+        </tr>
+      </thead>
+      {% for vote in votes %}
+        <tr>
+          <td data-title="Position">{{vote.Position}}</td>
+          <td data-title="Nominee">{{vote.Nomination}}</td>
+          <td data-title="Leahy">{{vote.Senate_Vote_Leahy}}</td>
+          <td data-title="Sanders">{{vote.Senate_Vote_Sanders}}</td>
+          <td data-title="Vote Date">{{vote.Senate_Vote_Date}}</td>
+        </tr>
+      {% endfor %}
+  </table>
 
+</div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
 <script>
-  var pymChild = new pym.Child();
+    var pymChild = new pym.Child();
 </script>
