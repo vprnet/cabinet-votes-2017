@@ -2,8 +2,7 @@
   <table>
       <thead>
         <tr>
-          <th>Position</th>
-          <th>Nominee</th>
+          <th>Name, Position</th>
           <th>Leahy</th>
           <th>Sanders</th>
           <th>Vote Date</th>
@@ -11,11 +10,11 @@
       </thead>
       {% for vote in votes %}
         <tr>
-          <td data-title="Position">{{vote.Position}}</td>
-          <td data-title="Nominee">{{vote.Nomination}}
+          <td data-title="Nominee">
             {% if vote.Nominee_Confirmed == "x" %}
               <span style="font-family: wingdings; font-size: 100%;">&#10004;</span>
             {% endif %}
+            {{vote.Nomination}}, {{vote.Position}}
           </td>
           <td data-title="Leahy">{{vote.Senate_Vote_Leahy}}</td>
           <td data-title="Sanders">{{vote.Senate_Vote_Sanders}}</td>
