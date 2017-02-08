@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from sheet import get_google_sheet
 
 def get_votes():
