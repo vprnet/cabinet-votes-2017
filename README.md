@@ -35,4 +35,3 @@ We use [gspread](https://github.com/burnash/gspread) with the Drive API to conne
 1. The json file is what gets loaded and opened in `sheet.py`. Make sure the names match.
 1. Create a Google Spreadsheet through your Google Drive. Make sure your spreadsheet title is exactly what's trying to be opened in `sheet.py`'s `authorization.open("")` line. To match our project, you'll need a worksheet with columns: `Position`, `Nomination`, `Committee_Vote_Leahy`, `Committee_Vote_Sanders`, `Full_Vote_Senate_Approval`, `Senate_Vote_Leahy`, `Senate_Vote_Sanders`, `Senate_Vote_Date`, and `Nominee_Confirmed`.
 1. You may need to *share your Google Spreadsheet* with the email provided in `client_email`.
-1. If you have problems running the project locally, you'll likely need to need to `pip install gspread` and `pip install oauth2client` and maybe even `pip install pycrypto`.
