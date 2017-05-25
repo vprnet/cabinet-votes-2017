@@ -3,7 +3,7 @@
 The code here powers the table in [this](http://digital.vpr.net/post/vote-tracker-how-bernie-sanders-patrick-leahy-are-voting-trumps-cabinet-picks) VPR digital news post. It pulls data from a Google Spreadsheet and is embedded into our CMS through pym.js.
 
 
-##Notes on the Project
+## Notes on the Project
 
 The project was built off of VPR's [App Template](https://github.com/vprnet/app-template). The steps to get set up are here:
 
@@ -18,7 +18,7 @@ The project was built off of VPR's [App Template](https://github.com/vprnet/app-
 1. To run locally, hit a quick	`python runserver.py` and head to `127.0.0.1:5000`, but know that it will be broken until you follow the Google Spreadsheet steps below.
 
 
-##Notes on Interacting with Google Spreadsheets
+## Notes on Interacting with Google Spreadsheets
 
 The project is hooked up to a Google Spreadsheet that VPR reporters can populate. If you're interested in cloning this project, you'll need your own Google Spreadsheet to get started.
 
